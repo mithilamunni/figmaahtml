@@ -1,0 +1,163 @@
+@media(max-width:1400px){
+.container{
+    max-width: 100%;
+    margin: ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.heroBannerContent{
+    flex-basis: 900px;
+    max-width: 900px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+    }
+
+    .heroBannerContent p{
+        font-size: 24PX;
+
+    }
+    .SectionReVARCE img{
+        max-width: 400px;
+    }
+
+    .imgtextcontent{
+        max-width: 500px;
+       
+    }
+
+    .offer{
+        max-width: 1000px !important 
+    }
+
+    .feature img{
+    max-height: 80px;
+    }
+    
+}
+@media(max-width:1200px){
+    .heroBannerContent p{
+        font-size: 20PX;
+
+    }
+
+    .heroBannerContent{
+        flex-basis: 700px;
+        max-width: 700px;
+        }
+
+        .px-50{
+            padding-left: 20px;
+            padding-right: 20px;
+         }
+
+         .feature{
+            padding: 15px 20px;
+         }
+         .feature p{
+         font-size: 16px;
+         }
+
+         .SectionReVARCE{
+            padding:0 5px ;
+         }
+
+.featureSection .col-1-3,
+.featureSection .col-1-4{
+  padding: 5px;
+}
+
+.imgtextcontent{
+    padding: 30px;
+}
+
+.offer{
+    max-width: 800px !important;
+    min-height: 400px;
+    margin-bottom: -200px;
+    margin-top: -200px;
+}
+
+.textSectioOne .col-1-2, .textSectioTwo .col-1-2{
+    flex-basis: 60%;
+    max-width: 60%;
+}
+}
+
+@media(max-width:767px){
+    
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header.row{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo img{
+        width: 70px;
+    }
+
+    .heroBannerContent{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .heroBannerContent h1{
+        font-size: 30px;
+    }
+    .heroBannerContent p{
+        font-size: 18px;
+    }
+
+    .aboutSection .row{
+        flex-direction: column-reverse;
+    }
+
+    .col-1-2{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .aboutSection h2{
+        padding-top: 34px;
+        font-size: 30px;
+    }
+
+    .col-1-4{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .SectionReVARCE h2{
+        padding-top: 34px;
+        font-size: 30px;
+    }
+
+    .imgtextsection img, .imgtextsection.reverse img{
+        border-radius: 12px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .textSectioOne .col-1-2, .textSectioTwo .col-1-2{
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .textSectioOne, .textSectioTwo{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .offer{
+        padding: 30px;
+        max-width: 100% !important;
+        width:calc(100%-30px);
+        margin-top: 15px;
+        min-height: auto;
+        margin-bottom: 0;
+    }
+
+}
